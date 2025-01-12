@@ -4,6 +4,7 @@ let character = document.querySelector('#character');
 let quote = document.querySelector('#quote');
 
 const allyQuotes = [{
+  // Vanguards
   quote: '"Together! To victory!"',
   character: 'Captain America',
   ultimate: 'Freedom Charge'
@@ -40,6 +41,7 @@ const allyQuotes = [{
   character: 'Venom',
   ultimate: 'Feast of the Abyss'
 }, {
+  // Duelists
   quote: '"Bast, grace us with victory!"',
   character: 'Black Panther',
   ultimate: "Bast's Descent"
@@ -115,6 +117,39 @@ const allyQuotes = [{
   quote: '"Berserker Rage!"',
   character: 'Wolverine',
   ultimate: 'Last Stand'
+}, {
+  // Strategists
+  quote: '"Rise, my friends!"',
+  character: 'Adam Warlock',
+  ultimate: 'Karmic Revival'
+}, {
+  quote: `"It's co-op time!"`,
+  character: 'Cloak & Dagger',
+  ultimate: 'Eternal Bond'
+}, {
+  quote: '"Shields up!"',
+  character: 'Invisible Woman',
+  ultimate: 'Invisible Boundary'
+}, {
+  quote: '"Yummy, yummy!"',
+  character: 'Jeff the Land Shark',
+  ultimate: "It's Jeff!"
+}, {
+  quote: '"Bring on the chaos!"',
+  character: 'Loki',
+  ultimate: 'God of Mischief'
+}, {
+  quote: `"It's the grand finale!"`,
+  character: 'Luna Snow',
+  ultimate: 'Fate of Both Worlds'
+}, {
+  quote: '"Friends, gather around!"',
+  character: 'Mantis',
+  ultimate: 'Soul Resurgence'
+}, {
+  quote: '"Hey team! Enjoy the amplifier"',
+  character: 'Rocket Raccoon',
+  ultimate: 'C.Y.A.'
 }]
 
 // dialogues: https://dotesports.com/marvel/news/all-marvel-rivals-ultimate-voice-lines
