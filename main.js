@@ -5,88 +5,116 @@ let quote = document.querySelector('#quote');
 
 const allyQuotes = [{
   quote: '"Together! To victory!"',
-  character: 'Captain America'
+  character: 'Captain America',
+  ultimate: 'Freedom Charge'
 }, {
   quote: '"I unleash the Vishantis power.',
   character: 'Doctor Strange',
+  ultimate: 'Eye of Agomotto'
 }, {
   quote: '"We are Groot!"',
   character: 'Groot',
+  ultimate: 'Strangling Prison'
 }, {
   quote: '"My turn now!"',
-  character: 'Bruce Banner'
+  character: 'Bruce Banner',
+  ultimate: 'Puny Banner'
 }, {
   quote: '"NOW HULK MAD!"',
-  character: 'Hulk'
+  character: 'Hulk',
+  ultimate: 'Hulk Smash'
 }, {
   quote: '"For Mutankind!"',
-  character: 'Magneto'
+  character: 'Magneto',
+  ultimate: 'Meteor'
 }, {
   quote: '"Spider mode!"',
-  character: 'Peni Parker'
+  character: 'Peni Parker',
+  ultimate: 'Spider-Sweeper'
 }, {
   quote: `"I am Asgard's MIGHT!"`,
-  character: 'Thor'
+  character: 'Thor',
+  ultimate: 'God of Thunder'
 }, {
   quote: '"We hunger!"',
-  character: 'Venom'
+  character: 'Venom',
+  ultimate: 'Feast of the Abyss'
 }, {
   quote: '"Bast, grace us with victory!"',
-  character: 'Black Panther'
+  character: 'Black Panther',
+  ultimate: "Bast's Descent"
 }, {
   quote: '"Mind the exploding plastma."',
-  character: 'Black Widow'
+  character: 'Black Widow',
+  ultimate: 'Electro-Plasma Explosion'
 }, {
   quote: `"Here's how you shoot!"`,
-  character: 'Hawkeye'
+  character: 'Hawkeye',
+  ultimate: "Hunter's Sight"
 }, {
   quote: '"A feast for my crows!"',
-  character: 'Hela'
+  character: 'Hela',
+  ultimate: 'Goddess of Death'
 }, {
   quote: '"The Dragon unleashed!"',
-  character: 'Iron Fist'
+  character: 'Iron Fist',
+  ultimate: 'Living Chi'
 }, {
   quote: '"Pulse charge - fire!"',
-  character: 'Iron Man'
+  character: 'Iron Man',
+  ultimate: 'Invincible Pulse Cannon'
 }, {
   quote: '"Limbo stands with you!"',
-  character: 'Magik'
+  character: 'Magik',
+  ultimate: 'Darkchild'
 }, {
   quote: '"Haha! Problem solved!"',
-  character: 'Mister Fantastic'
+  character: 'Mister Fantastic',
+  ultimate: 'Brainiac Bounce'
 }, {
   quote: '"Leave them to Khonshu."',
-  character: 'Moon Knight'
+  character: 'Moon Knight',
+  ultimate: 'Hand of Khonshu'
 }, {
   quote: '*Horn Blast*',
-  character: 'Namor'
+  character: 'Namor',
+  ultimate: 'Horn of Proteus'
 }, {
   quote: '"Watch me soar!"',
-  character: 'Psylocke'
+  character: 'Psylocke',
+  ultimate: 'Dancec of the Butterfly'
 }, {
   quote: '"The perfect...Hex!"',
-  character: 'Scarlet Witch'
+  character: 'Scarlet Witch',
+  ultimate: 'Reality Erasure'
 }, {
   quote: '"You get a web, and you get a web, and you get a web!"',
-  character: 'Spider-Man'
+  character: 'Spider-Man',
+  ultimate: 'Spectacular Spin'
 }, {
   quote: '"My friends are here!"',
-  character: 'Squirrel Girl'
+  character: 'Squirrel Girl',
+  ultimate: 'Unbeatable Squirrel Tsunami'
 }, {
   quote: '"Allllright!!"',
-  character: 'Star-Lord'
+  character: 'Star-Lord',
+  ultimate: 'Galactic Legend'
 }, {
   quote: '"Hurricane...Incoming!"',
-  character: 'Storm'
+  character: 'Storm',
+  ultimate: 'Omega Hurricane'
 }, {
   quote: `"I'm doing this my way!"`,
-  character: 'The Punisher'
+  character: 'The Punisher',
+  ultimate: 'Final Judgement'
 }, {
   quote: '"Stand down!"',
-  character: 'Winter Soldier'
+  character: 'Winter Soldier',
+  ultimate: 'Kraken Impact'
 }, {
   quote: '"Berserker Rage!"',
-  character: 'Wolverine'
+  character: 'Wolverine',
+  ultimate: 'Last Stand'
 }]
 
 // dialogues: https://dotesports.com/marvel/news/all-marvel-rivals-ultimate-voice-lines
