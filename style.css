@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(./img/marvel-rivals-default.webp) no-repeat center center/cover;
+}
+
+.container{
+  width: 34.375rem;
+  height: 28.125rem;
+  position: relative;
+}
+
+.header{
+  font-size: 1.5rem;
+  border: solid 2px white;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  padding: 0.3125rem;
+  /* width: 80%; */
+  margin: 1.25rem auto;
+  border-radius: 0.625rem;
+}
+
+.main-content{
+  width: 100%;
+  height: 18.75rem;
+  background-color: white;
+  border-radius: 0.625rem;
+  padding: 3.125rem 2.5rem;
+  box-shadow: 0 0 0.625rem;
+  opacity: 0.75;
+}
+
+.quote-area{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.character{
+  font-size: 1.6rem;
+  color: red;
+  text-transform: uppercase;
+  margin-top: 1.25rem;
+}
+
+.button{
+  background-color: darkgray;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 1.5rem;
+  border-radius: 0.625rem;
+}
+
+button:hover, button:active{
+  background-color: lightblue;
+}
