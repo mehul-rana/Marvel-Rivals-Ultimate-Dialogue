@@ -9,7 +9,7 @@ const allyQuotes = [{
   character: 'Captain America',
   ultimate: 'Freedom Charge'
 }, {
-  quote: '"I unleash the Vishantis power.',
+  quote: '"I unleash the Vishantis power."',
   character: 'Doctor Strange',
   ultimate: 'Eye of Agomotto'
 }, {
@@ -152,4 +152,151 @@ const allyQuotes = [{
   ultimate: 'C.Y.A.'
 }]
 
-// dialogues: https://dotesports.com/marvel/news/all-marvel-rivals-ultimate-voice-lines
+const enemyQuotes = [{
+  // Vanguards
+  quote: '"Assemble!"',
+  character: 'Captain America',
+  ultimate: 'Freedom Charge'
+}, {
+  quote: '"Bye the Eye of Agamotto!"',
+  character: 'Doctor Strange',
+  ultimate: 'Eye of Agomotto'
+}, {
+  quote: '"I AM GROOOOT!"',
+  character: 'Groot',
+  ultimate: 'Strangling Prison'
+}, {
+  quote: `"I'm Hulking out!"`,
+  character: 'Bruce Banner',
+  ultimate: 'Puny Banner'
+}, {
+  quote: '"HULK SMASH!"',
+  character: 'Hulk',
+  ultimate: 'Hulk Smash'
+}, {
+  quote: '"Fear Magneto"',
+  character: 'Magneto',
+  ultimate: 'Meteor'
+}, {
+  quote: `"It's...Spider time!"`,
+  character: 'Peni Parker',
+  ultimate: 'Spider-Sweeper'
+}, {
+  quote: `"Behold, the God of Thunder"`,
+  character: 'Thor',
+  ultimate: 'God of Thunder'
+}, {
+  quote: '"We are Venom!"',
+  character: 'Venom',
+  ultimate: 'Feast of the Abyss'
+}, {
+  // Duelists
+  quote: '"Tremble before Bast!"',
+  character: 'Black Panther',
+  ultimate: "Bast's Descent"
+}, {
+  quote: '"Plasma...Burst!"',
+  character: 'Black Widow',
+  ultimate: 'Electro-Plasma Explosion'
+}, {
+  quote: `"Woo! I never miss!"`,
+  character: 'Hawkeye',
+  ultimate: "Hunter's Sight"
+}, {
+  quote: '"Hell unleashed!"',
+  character: 'Hela',
+  ultimate: 'Goddess of Death'
+}, {
+  quote: '"Qì guàn cháng hóng!"',
+  character: 'Iron Fist',
+  ultimate: 'Living Chi'
+}, {
+  quote: '"Maximum Pulse!"',
+  character: 'Iron Man',
+  ultimate: 'Invincible Pulse Cannon'
+}, {
+  quote: '"Behold, Darkchild!"',
+  character: 'Magik',
+  ultimate: 'Darkchild'
+}, {
+  quote: '"Fantastic!"',
+  character: 'Mister Fantastic',
+  ultimate: 'Brainiac Bounce'
+}, {
+  quote: '"The moon haunts you!"',
+  character: 'Moon Knight',
+  ultimate: 'Hand of Khonshu'
+}, {
+  quote: '*Horn Blast*',
+  character: 'Namor',
+  ultimate: 'Horn of Proteus'
+}, {
+  quote: '"Chō no mai o kurāe!"',
+  character: 'Psylocke',
+  ultimate: 'Dancec of the Butterfly'
+}, {
+  quote: '"Pure! Chaos!"',
+  character: 'Scarlet Witch',
+  ultimate: 'Reality Erasure'
+}, {
+  quote: `"Don't mess with the Amazing Spider-Man!"`,
+  character: 'Spider-Man',
+  ultimate: 'Spectacular Spin'
+}, {
+  quote: '"Squirrel stampede!"',
+  character: 'Squirrel Girl',
+  ultimate: 'Unbeatable Squirrel Tsunami'
+}, {
+  quote: '"Le—gen—dary!"',
+  character: 'Star-Lord',
+  ultimate: 'Galactic Legend'
+}, {
+  quote: '"Feel the wrath of the Goddess!"',
+  character: 'Storm',
+  ultimate: 'Omega Hurricane'
+}, {
+  quote: `"Judge! Jury! Executioner!"`,
+  character: 'The Punisher',
+  ultimate: 'Final Judgement'
+}, {
+  quote: '"Armed and dangerous!"',
+  character: 'Winter Soldier',
+  ultimate: 'Kraken Impact'
+}, {
+  quote: '*Grunts*',
+  character: 'Wolverine',
+  ultimate: 'Last Stand'
+}, {
+  // Strategists
+  quote: '"Born again!"',
+  character: 'Adam Warlock',
+  ultimate: 'Karmic Revival'
+}, {
+  quote: `"Us against the world!"`,
+  character: 'Cloak & Dagger',
+  ultimate: 'Eternal Bond'
+}, {
+  quote: '"Disappear!"',
+  character: 'Invisible Woman',
+  ultimate: 'Invisible Boundary'
+}, {
+  quote: '"Om, nom, nom"',
+  character: 'Jeff the Land Shark',
+  ultimate: "It's Jeff!"
+}, {
+  quote: '"Your powers are mine!"',
+  character: 'Loki',
+  ultimate: 'God of Mischief'
+}, {
+  quote: `"I am ready to put on a show!"`,
+  character: 'Luna Snow',
+  ultimate: 'Fate of Both Worlds'
+}, {
+  quote: '"We are undefeatable!"',
+  character: 'Mantis',
+  ultimate: 'Soul Resurgence'
+}, {
+  quote: '"This is REAL firepower!"',
+  character: 'Rocket Raccoon',
+  ultimate: 'C.Y.A.'
+}]
