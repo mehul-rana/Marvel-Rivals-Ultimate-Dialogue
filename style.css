@@ -11,6 +11,15 @@ body{
   height: 100vh;
   text-align: center;
   background: url(./img/marvel-rivals-default.webp) no-repeat center center/cover;
+  font-family: "Bangers", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h2{
+  color: yellow;
+  text-shadow: red 1px 0 10px;
+  font-weight: 100;
 }
 
 .container{
@@ -23,7 +32,7 @@ body{
   font-size: 1.5rem;
   border: solid 2px white;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.75;
   color: white;
   padding: 0.3125rem;
   /* width: 80%; */
@@ -41,6 +50,10 @@ body{
   opacity: 0.75;
 }
 
+.quote{
+  color: green;
+}
+
 .quote-area{
   font-size: 1.5rem;
   line-height: 1.5;
@@ -48,9 +61,13 @@ body{
 
 .character{
   font-size: 1.6rem;
-  color: red;
+  color: blue;
   text-transform: uppercase;
   margin-top: 1.25rem;
+}
+
+#ultimate{
+  color: orange;
 }
 
 .button{

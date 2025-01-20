@@ -85,7 +85,7 @@ const allyQuotes = [{
 }, {
   quote: '"Watch me soar!"',
   character: 'Psylocke',
-  ultimate: 'Dancec of the Butterfly'
+  ultimate: 'Dance of the Butterfly'
 }, {
   quote: '"The perfect...Hex!"',
   character: 'Scarlet Witch',
@@ -159,7 +159,7 @@ const enemyQuotes = [{
   character: 'Captain America',
   ultimate: 'Freedom Charge'
 }, {
-  quote: '"Bye the Eye of Agamotto!"',
+  quote: '"By the Eye of Agamotto!"',
   character: 'Doctor Strange',
   ultimate: 'Eye of Agomotto'
 }, {
@@ -306,14 +306,20 @@ ally.addEventListener('click', function(){
   let random = Math.floor(Math.random() * allyQuotes.length);
 
   quote.innerText = allyQuotes[random].quote;
+  quote.style.color = 'green'
   character.innerText = allyQuotes[random].character;
+  character.style.color = 'blue'
   ultimate.innerText = allyQuotes[random].ultimate;
+  ultimate.style.color = 'orange'
 })
 
 enemy.addEventListener('click', function(){
   let random = Math.floor(Math.random() * enemyQuotes.length);
 
   quote.innerText = enemyQuotes[random].quote;
+  quote.style.color = 'red'
   character.innerText = enemyQuotes[random].character;
+  character.style.color = 'blue'
   ultimate.innerText = enemyQuotes[random].ultimate;
+  ultimate.style.color = 'orange'
 })
