@@ -1,7 +1,8 @@
-let ally = document.querySelector('#ally-quote');
-let enemy = document.querySelector('#enemy-quote');
+let ally = document.querySelector('#ally');
+let enemy = document.querySelector('#enemy');
 let character = document.querySelector('#character');
 let quote = document.querySelector('#quote');
+let ultimate = document.querySelector('#ultimate');
 
 const allyQuotes = [{
   // Vanguards
@@ -300,3 +301,19 @@ const enemyQuotes = [{
   character: 'Rocket Raccoon',
   ultimate: 'C.Y.A.'
 }]
+
+ally.addEventListener('click', function(){
+  let random = Math.floor(Math.random() * allyQuotes.length);
+
+  quote.innerText = allyQuotes[random].quote;
+  character.innerText = allyQuotes[random].character;
+  ultimate.innerText = allyQuotes[random].ultimate;
+})
+
+enemy.addEventListener('click', function(){
+  let random = Math.floor(Math.random() * enemyQuotes.length);
+
+  quote.innerText = enemyQuotes[random].quote;
+  character.innerText = enemyQuotes[random].character;
+  ultimate.innerText = enemyQuotes[random].ultimate;
+})
